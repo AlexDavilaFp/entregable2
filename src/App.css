@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://i.gifer.com/bFF.gif") center center / 100% 100% no-repeat fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card {
+  width: 350px;
+  padding: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+  background: lightgray;
+  opacity: 0.8;
+  border-radius: 10px;
+
+}
+
+.card ul{
+  text-align: center;
+  list-style: none;
+}
+
+.card ul li{
+  margin-bottom: 10px;
+}
+
+.card button{
+  height: 35px;
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 120px;
+  cursor: pointer;
+  border:none;
+  font-size: 15px;
+}
+
+.weather{
+  display: flex;
+}
+
+.card div{
+  padding: 5px;
+}
